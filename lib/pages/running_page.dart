@@ -15,7 +15,7 @@ class _RunningPageState extends State<RunningPage>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("temp"),
+      body: Text("RunningPage temp"),
     );
   }
 }

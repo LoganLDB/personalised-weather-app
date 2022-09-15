@@ -1,7 +1,8 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:personalised_weather_app/pages/home_page.dart';
+import 'package:personalised_weather_app/pages/running_page.dart';
 class MainPage extends StatefulWidget{
   const MainPage({Key? key}) : super(key: key);
 
@@ -14,8 +15,8 @@ class MainPage extends StatefulWidget{
 class _MainPageState extends State<MainPage> {
   int _selectedIndex = 0;
   final List<Widget> _pages = [
-    Scaffold(body: Text("Home")),
-    Scaffold(body: Text("Running")),
+    Scaffold(body: HomePage()),
+    Scaffold(body: RunningPage()),
     Scaffold(body: Text("Week")),
   ];
 
